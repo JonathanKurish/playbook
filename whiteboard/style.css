@@ -1,0 +1,61 @@
+#canvas{
+	border: solid 2px green;
+	background-color:#fff;
+
+}
+body{
+    height:100%;
+    width:100%;
+}
+
+#controllers {
+  width: 200px;
+  font-size: 0.8em;
+  color: #333;
+}
+#paint {
+  border: 1px solid #000;
+  background: #fff;
+}
+
+#top_buttons {
+	padding:5px;
+	margin-bottom:5px;
+}
+
+.controller {
+  background: #eee;
+  border: 1px solid #e7e7e7;
+  padding: 5px;
+  margin-bottom:15px;
+}
+#backgroundImg {
+	height:100px;
+	width:auto;	
+}
+
+#myCanvas {
+	border:2px solid black;
+}
+
+.wrapper {
+	display: flex;
+	background-color: green;
+}
+
+.container {
+	border:1px solid red;
+	margin:15px;
+}
+
+.isSet {
+	background-color: green;
+}
+
+#clickX {
+	margin-top:10px;
+}
+
+#myCanvas {
+    cursor: default;
+}
